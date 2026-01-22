@@ -10,13 +10,13 @@
     "engines",
     "npminit"
   ],
-  "homepage": "https://github.com/olympusmons1256/AD311/exploringPackagejsonInNodeJs#readme",
+  "homepage": "https://github.com/olympusmons1256/AD311/blob/main/exploringPackagejsonInNodeJs/readme.md",
   "bugs": {
-    "url": "https://github.com/olympusmons1256/AD311/exploringPackagejsonInNodeJ/issues"
+    "url": "https://github.com/olympusmons1256/AD311/blob/main/exploringPackagejsonInNodeJs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olympusmons1256/AD311/exploringPackagejsonInNodeJ.git",
+    "url": "git+https://github.com/olympusmons1256/AD311/tree/main/exploringPackagejsonInNodeJs",
     "directory": "exploringPackagejsonInNodeJs"
   },
   "license": "MIT",
