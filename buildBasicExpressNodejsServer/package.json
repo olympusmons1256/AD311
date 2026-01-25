@@ -1,0 +1,39 @@
+{
+  "name": "buildbasicexpressnodejsserver",
+  "version": "1.0.0",
+  "description": "create a simple web server using Express in NodeJS that responds to different routes with text responses",
+  "keywords": [
+    "nodejs",
+    "express",
+    "server"
+  ],
+  "homepage": "https://github.com/olympusmons1256/AD311/blob/main/buildBasicExpressNodejsServer/readme.md",
+  "bugs": {
+    "url": "https://github.com/olympusmons1256/AD311/blob/main/buildBasicExpressNodejsServer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olympusmons1256/AD311/tree/main/buildBasicExpressNodejsServer",
+    "directory": "buildBasicExpressNodejsServer"
+  },
+  "license": "ISC",
+  "author": "Reid Santabarbara",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^6.3.4",
+    "dotenv": "^17.2.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
