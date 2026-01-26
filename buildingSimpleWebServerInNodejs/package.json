@@ -1,0 +1,32 @@
+{
+  "name": "buildingsimplewebserverinnodejs",
+  "version": "1.0.0",
+  "description": "create a simple web server using Node.js. This server will serve a basic HTML page and handle different routes including a homepage and an about page. ",
+  "keywords": [
+    "webserver"
+  ],
+  "homepage": "https://github.com/olympusmons1256/AD311/blob/main/buildingsimplewebserverinnodejs/readme.md",
+  "bugs": {
+    "url": "https://github.com/olympusmons1256/AD311/blob/main/buildingsimplewebserverinnodejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olympusmons1256/AD311/tree/main/buildingsimplewebserverinnodejs",
+    "directory": "buildingsimplewebserverinnodejs"
+  },
+  "author": "Reid SantaBarbara",
+  "license": "ISC",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+
+  }
+}
