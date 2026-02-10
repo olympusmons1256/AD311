@@ -16,3 +16,4 @@ A simple Node.js and Express.js API that serves interesting trivia about dogs.
 
 # API Usage
 - GET /facts //returns an array of dog facts
+- GET /facts?number=1 //Returns a specific number of facts
