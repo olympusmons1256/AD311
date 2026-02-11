@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog API Explorer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .breed-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+        .breed-item {
+            padding: 10px;
+            background: #e3f2fd;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .breed-item:hover {
+            background: #bbdefb;
+        }
+        .breed-details {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f0f0f0;
+            border-radius: 4px;
+        }
+        .error {
+            color: red;
+            padding: 10px;
+            background: #ffebee;
+            border-radius: 4px;
+        }
+        .fact-item {
+            padding: 10px;
+            margin: 10px 0;
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            border-radius: 4px;
+        }
+        .group-item {
+            padding: 10px;
+            margin: 10px 0;
+            background: #e8f5e9;
+            border-radius: 4px;
+        }
+        button {
+            background: #2196F3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #1976D2;
+        }
+        .loading {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dog API Explorer</h1>
+
+    <!-- Basic Fetch and Display Breeds -->
+    <div class="section">
+        <h2>Part 1 & 2: Dog Breeds List</h2>
+        <button id="loadBreedsBtn">Load Dog Breeds</button>
+        <div id="breedsContainer"></div>
+    </div>
+
+    <!-- Detailed Breed Information -->
+    <div class="section">
+        <h2>Part 3: Breed Details</h2>
+        <p>Click on any breed above to see detailed information here:</p>
+        <div id="breedDetails"></div>
+    </div>
+
+    <!-- Dog Facts -->
+    <div class="section">
+        <h2>Part 5: Random Dog Facts</h2>
+        <button id="loadFactsBtn">Load Dog Facts</button>
+        <div id="factsContainer"></div>
+    </div>
+
+    <!-- Dog Groups -->
+    <div class="section">
+        <h2>Part 5: Dog Groups</h2>
+        <button id="loadGroupsBtn">Load Dog Groups</button>
+        <div id="groupsContainer"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
