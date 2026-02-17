@@ -35,3 +35,14 @@ Button component is passed as children to ContentA and ContentB to show componen
 Components are located in src/components/.
 App.js imports and assembles all components together.
 The Button component can be reused in any component that accepts children.
+
+# Test Cases
+## Normal
+- header renders correctly
+- footer renders correctly
+- Button click handler shows corresponding content text
+
+## Edge
+- Button handler works when clicked multiple times
+- Both Buttons are clicked in succession to one another
+- Button works without children
