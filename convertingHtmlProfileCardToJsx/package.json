@@ -1,0 +1,19 @@
+{
+  "name": "convertinghtmlprofilecardtojsx",
+  "version": "1.0.0",
+  "description": "A web application that proofs converting html to jsx",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "Reid SantaBarbara",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}
