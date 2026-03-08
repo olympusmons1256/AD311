@@ -1,0 +1,18 @@
+{
+  "name": "creating-static-product-list-in-react",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple React app that displays a static list of products using Vite.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
