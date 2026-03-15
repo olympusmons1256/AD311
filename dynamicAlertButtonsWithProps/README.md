@@ -18,11 +18,3 @@ A React app that demonstrates dynamic rendering of AlertButton components from a
 ### Usage
 - Click any button in the toolbar to see a browser alert with the specific message for that button.
 
----
-
-#### Files
-- AlertButton.jsx: Reusable button component that shows an alert with a custom message.
-- Toolbar.jsx: Renders AlertButton components dynamically from an array.
-- App.jsx: Main app component.
-- main.jsx: Entry point for React.
-- index.html: HTML template.
