@@ -18,12 +18,3 @@ A simple React app that features a Toolbar component with multiple AlertButton c
 
 ### Usage
 - Click any button in the toolbar to see a browser alert with a unique message for that button.
-
----
-
-#### Files
-- AlertButton.jsx: Reusable button component that shows an alert with a custom message.
-- Toolbar.jsx: Renders multiple AlertButton components with different messages and labels.
-- App.jsx: Main app component.
-- main.jsx: Entry point for React.
-- index.html: HTML template.
