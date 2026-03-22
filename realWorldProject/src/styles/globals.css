@@ -1,0 +1,35 @@
+/* Theme variables from style guide */
+:root {
+  --color-primary: #1E293B;
+  --color-secondary: #3B82F6;
+  --color-neutral-bg: #FFFFFF;
+  --color-neutral-text: #0F172A;
+  --color-success: #10B981;
+  --color-error: #EF4444;
+  --color-chat-user: #7EC1FF;
+  --color-chat-ai: #FFD580;
+  --color-chat-bg: #232B3A;
+  --color-chat-input-bg: #181F2A;
+  --color-context-bg: #283046;
+  --radius-small: 4px;
+  --radius-micro: 1px;
+  --space-md: 16px;
+}
+
+html,
+body,
+#__next {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--color-neutral-bg);
+  color: var(--color-neutral-text);
+}
