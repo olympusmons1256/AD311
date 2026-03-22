@@ -48,7 +48,17 @@ export default function LoginScreen() {
           justifyContent: 'center',
         }}
       >
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', minHeight: '100%' }}>
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            minHeight: '100%',
+            width: '100%',
+            maxWidth: 640,
+            margin: '0 auto',
+          }}
+        >
           <div
             style={{
               display: 'inline-flex',
